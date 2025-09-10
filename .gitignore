@@ -101,3 +101,5 @@ bin/
 
 # Arquivos do VS Code
 .vscode/
+
+.gitignore
