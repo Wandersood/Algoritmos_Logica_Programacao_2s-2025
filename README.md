@@ -1,0 +1,1 @@
+# Algoritmos_Logica_Programacao_2s-2025
