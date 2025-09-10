@@ -1,0 +1,103 @@
+# Arquivos gerados pelo sistema operacional
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+logs/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Arquivos de dependências e pacotes
+node_modules/
+dist/
+dist-custom/
+coverage/
+
+# Arquivos compilados de Java
+*.class
+
+# Arquivos de pacotes Java
+*.jar
+*.war
+*.ear
+*.zip
+*.tar.gz
+*.rar
+
+# Logs de crash da JVM
+hs_err_pid*
+
+# Arquivos específicos do IntelliJ IDEA
+# Geralmente, a pasta .idea contém configurações do seu projeto.
+# É uma boa prática ignorar a maioria desses arquivos para evitar conflitos
+# com as configurações locais de outros desenvolvedores.
+.idea/
+*.iml
+*.ipr
+*.iws
+out/
+gen/
+
+# Arquivos de configuração de execução que podem conter informações locais
+.idea/workspace.xml
+.idea/tasks.xml
+.idea/shelf/
+.idea/dictionaries/
+.idea/vcs.xml
+
+# Arquivos gerados por frameworks e ferramentas
+# Maven
+target/
+pom.xml.tag
+pom.xml.releaseBackup
+pom.xml.versionsBackup
+pom.xml.next
+release.properties
+dependency-reduced-pom.xml
+buildNumber.properties
+.mvn/timing.properties
+
+# Gradle
+.gradle/
+build/
+
+# Cache do Gradle
+.gradletasknamecache
+gradle-wrapper.jar
+
+# Arquivos de bancos de dados locais e temporários
+# H2
+*.h2.db
+# HSQLDB
+*.script
+*.properties
+*.lck
+# SQLite
+*.db
+*.db-journal
+# Derby
+*.log
+
+# Arquivos de configuração de serviços que podem conter senhas
+# Se você armazena senhas ou chaves de API em arquivos de propriedades,
+# certifique-se de adicioná-los aqui.
+# Exemplo: application-local.properties
+
+# Arquivos do NetBeans
+nbproject/private/
+build/
+nbbuild/
+dist/
+nbdist/
+.nb-gradle/
+
+# Arquivos do Eclipse
+.classpath
+.project
+.settings/
+bin/
+
+# Arquivos do VS Code
+.vscode/
